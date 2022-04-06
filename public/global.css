@@ -1,0 +1,30 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+@import url('/fonts/Hubballi-Regular.ttf')
+*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Hubballi";
+    src: url("/fonts/Hubballi-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+/*
+body {
+            font-family: 'Hubballi', cursive;
+            font-size: 1.2rem;
+        }*/
+
+body {
+    min-height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
